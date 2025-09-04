@@ -1,11 +1,6 @@
 public class AVLTree {
     private AVLNode root;
-    
-    // 取得節點高度
-    private int getHeight(AVLNode node) {
-        return (node != null) ? node.height : 0;
-    }
-    
+
     // 插入節點
     // 時間複雜度: O(log n), 空間複雜度: O(log n)
     public void insert(int data) {

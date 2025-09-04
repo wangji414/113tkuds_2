@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class AVLBasicExercise {
     // 內部節點
     static class Node {
